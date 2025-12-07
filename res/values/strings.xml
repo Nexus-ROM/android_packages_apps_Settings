@@ -33,7 +33,7 @@
 
     <!-- Nexus Lab -->
     <string name="nexus_lab_title">Nexus Lab</string>
-    <string name="nexus_lab_summary">Useful Tweaks</string>
+    <string name="nexus_lab_summary">Some useful features</string>
     <string name="menu_key_nexus_lab">nexus_lab</string>
 
     <!-- Device Info screen. Used for a status item's value when the proper value is not known -->
