@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/nexus_team_title">
+
+    <PreferenceCategory
+        android:title="@string/nexus_team_title">
+
+        <Preference
+            android:key="aryan"
+            android:title="@string/aryan_name"
+            android:summary="@string/lead_developer"
+            android:icon="@drawable/ic_account_circle_24dp"
+            android:selectable="false" />
+
+        <Preference
+            android:key="dheeraj"
+            android:title="@string/dheeraj_name"
+            android:summary="@string/co_lead_developer"
+            android:icon="@drawable/ic_account_circle_24dp"
+            android:selectable="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

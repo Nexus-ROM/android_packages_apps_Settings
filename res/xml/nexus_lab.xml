@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/nexus_lab_title">
     
-    <!-- Empty for now -->
+    <!-- About Nexus Section -->
+    <PreferenceCategory
+        android:key="about_nexus_category"
+        android:title="@string/about_nexus_title">
+
+        <Preference
+            android:key="about_nexus"
+            android:title="@string/about_nexus_title"
+            android:summary="@string/about_nexus_summary"
+            android:icon="@drawable/ic_info_outline_24"
+            android:selectable="false" />
+
+    </PreferenceCategory>
+    
+    <!-- Nexus Team Section -->
+    <PreferenceCategory
+        android:key="nexus_team_category"
+        android:title="@string/nexus_team_title">
+
+        <Preference
+            android:key="nexus_team"
+            android:title="@string/nexus_team_title"
+            android:summary="@string/nexus_team_summary"
+            android:icon="@drawable/ic_people_24dp"
+            android:fragment="com.android.settings.nexuslab.NexusTeamFragment" />
+
+    </PreferenceCategory>
     
 </PreferenceScreen>

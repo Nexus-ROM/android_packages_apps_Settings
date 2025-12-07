@@ -31,6 +31,14 @@
     <string name="nexus_maintainer_title">Nexus Maintainer</string>
     <string name="nexus_maintainer">Anonymous</string>
 
+    <!-- Nexus Team -->
+    <string name="nexus_team_title">Nexus Team</string>
+    <string name="nexus_team_summary">Meet the team behind Nexus</string>
+    <string name="lead_developer">Lead Developer</string>
+    <string name="co_lead_developer">Co-Lead Developer</string>
+    <string name="aryan_name">Aryan</string>
+    <string name="dheeraj_name">Dheeraj R Shrivatsa</string>
+
     <!-- Nexus Lab -->
     <string name="nexus_lab_title">Nexus Lab</string>
     <string name="nexus_lab_summary">Some useful features</string>
