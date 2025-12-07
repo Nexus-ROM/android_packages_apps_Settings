@@ -76,8 +76,28 @@ public class LineageVersionDetailPreferenceController extends BasePreferenceCont
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(KEY_LINEAGE_VERSION_PROP,
+        String version = SystemProperties.get(KEY_LINEAGE_VERSION_PROP,
                 mContext.getString(R.string.unknown));
+        return formatNexusVersion(version);
+    }
+
+    private String formatNexusVersion(String version) {
+        try {
+            String[] parts = version.split("-");
+            
+            if (parts.length >= 4) {
+                String versionNumber = parts[0];
+                String buildType = parts[2];
+                String device = parts[3].toUpperCase();
+                
+                return versionNumber + " | " + buildType + " | " + device;
+            }
+        } catch (Exception e) {
+            Log.e(TAG, "Error formatting version: " + e.getMessage());
+        }
+        
+        // Fallback to original if parsing fails
+        return version;
     }
 
     @Override
