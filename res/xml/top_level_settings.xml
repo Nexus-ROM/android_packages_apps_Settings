@@ -60,15 +60,6 @@
         settings:controller="com.android.settings.nexuslab.TopLevelNexusLabPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
-        android:fragment="com.android.settings.nexuslab.NexusLab"
-        android:icon="@drawable/ic_homepage_nexus_lab"
-        android:key="top_level_nexus_lab"
-        android:order="-135"
-        android:title="@string/nexus_lab_title"
-        android:summary="@string/nexus_lab_summary"
-        settings:controller="com.android.settings.nexuslab.TopLevelNexusLabPreferenceController"/>
-
-    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.applications.AppDashboardFragment"
         android:icon="@drawable/ic_apps"
         android:key="top_level_apps"
