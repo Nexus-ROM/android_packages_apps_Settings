@@ -27,6 +27,10 @@
     <!-- Used in confirmation dialogs as the action that the user will tap to turn on the feature. [CHAR LIMIT=40]-->
     <string name="confirmation_turn_on">Turn on</string>
 
+    <!-- Nexus Strings -->
+    <string name="nexus_maintainer_title">Nexus Maintainer</string>
+    <string name="nexus_maintainer">Anonymous</string>
+
     <!-- Nexus Lab -->
     <string name="nexus_lab_title">Nexus Lab</string>
     <string name="nexus_lab_summary">Useful Tweaks</string>

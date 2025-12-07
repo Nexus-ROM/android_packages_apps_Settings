@@ -39,6 +39,13 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
 
+    <!-- Nexus Maintainer -->
+    <Preference
+        android:key="nexus_maintainer"
+        android:title="@string/nexus_maintainer_title"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.NexusMaintainerPreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
