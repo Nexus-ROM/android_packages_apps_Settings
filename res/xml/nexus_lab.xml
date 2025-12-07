@@ -17,6 +17,20 @@
             android:selectable="false" />
 
     </PreferenceCategory>
+
+    <!-- Miscellaneous Section -->
+    <PreferenceCategory
+        android:key="miscellaneous_category"
+        android:title="@string/miscellaneous_title">
+
+        <com.android.settingslib.RestrictedSwitchPreference
+            android:key="pixel_spoof"
+            android:title="@string/pixel_spoof_title"
+            android:summary="@string/pixel_spoof_summary"
+            android:icon="@drawable/ic_photo_library"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
     
     <!-- Nexus Team Section -->
     <PreferenceCategory

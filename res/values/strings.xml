@@ -44,6 +44,11 @@
     <string name="nexus_lab_summary">Some useful features</string>
     <string name="menu_key_nexus_lab">nexus_lab</string>
 
+    <!-- Nexus Misc -->
+    <string name="miscellaneous_title">Miscellaneous</string>
+    <string name="pixel_spoof_title">Spoof Pixel for Photos</string>
+    <string name="pixel_spoof_summary">Spoof device as Pixel for unlimited Google Photos storage</string>
+
     <!-- Device Info screen. Used for a status item's value when the proper value is not known -->
     <string name="device_info_default">Unknown</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
