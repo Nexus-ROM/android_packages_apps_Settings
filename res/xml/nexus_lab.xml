@@ -41,7 +41,7 @@
             android:key="nexus_team"
             android:title="@string/nexus_team_title"
             android:summary="@string/nexus_team_summary"
-            android:icon="@drawable/ic_people_24dp"
+            android:icon="@drawable/ic_person"
             android:fragment="com.android.settings.nexuslab.NexusTeamFragment" />
 
     </PreferenceCategory>

@@ -31,6 +31,10 @@
     <string name="nexus_maintainer_title">Nexus Maintainer</string>
     <string name="nexus_maintainer">Anonymous</string>
 
+    <!-- About Nexus -->
+    <string name="about_nexus_title">About Nexus ROM</string>
+    <string name="about_nexus_summary">Nexus ROM is based on LineageOS aiming to provide a Pixel-like experience</string>
+
     <!-- Nexus Team -->
     <string name="nexus_team_title">Nexus Team</string>
     <string name="nexus_team_summary">Meet the team behind Nexus</string>
