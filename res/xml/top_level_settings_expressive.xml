@@ -49,6 +49,15 @@
             android:summary="@string/connected_devices_dashboard_default_summary"
             settings:highlightableMenuKey="@string/menu_key_connected_devices"
             settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
+
+        <com.android.settings.widget.HomepagePreference
+            android:fragment="com.android.settings.nexuslab.NexusLab"
+            android:icon="@drawable/ic_homepage_nexus_lab"
+            android:key="top_level_nexus_lab"
+            android:order="-5"
+            android:title="@string/nexus_lab_title"
+            android:summary="@string/nexus_lab_summary"
+            settings:controller="com.android.settings.nexuslab.TopLevelNexusLabPreferenceController"/>
     </PreferenceCategory>
 
     <PreferenceCategory

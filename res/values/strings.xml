@@ -27,6 +27,11 @@
     <!-- Used in confirmation dialogs as the action that the user will tap to turn on the feature. [CHAR LIMIT=40]-->
     <string name="confirmation_turn_on">Turn on</string>
 
+    <!-- Nexus Lab -->
+    <string name="nexus_lab_title">Nexus Lab</string>
+    <string name="nexus_lab_summary">Useful Tweaks</string>
+    <string name="menu_key_nexus_lab">nexus_lab</string>
+
     <!-- Device Info screen. Used for a status item's value when the proper value is not known -->
     <string name="device_info_default">Unknown</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
